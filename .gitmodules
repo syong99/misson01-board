@@ -1,0 +1,3 @@
+[submodule "Misson01-Board-config"]
+	path = Misson01-Board-config
+	url = https://github.com/syong99/Misson01-Board-config.git

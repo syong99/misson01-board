@@ -38,6 +38,14 @@ dependencies {
 
 }
 
+tasks.register('copyPrivate') {
+	copy {
+		from './Misson01-Board-config'
+		include "application.yml"
+		into 'src/main/resources'
+	}
+}
+
 tasks.named('bootBuildImage') {
 	builder = 'paketobuildpacks/builder-jammy-base:latest'
 }
