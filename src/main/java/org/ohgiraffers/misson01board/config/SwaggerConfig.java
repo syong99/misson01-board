@@ -17,7 +17,7 @@ public class SwaggerConfig {
     @Bean
     public GroupedOpenApi firstOpenApi() {
         String[] path = {
-                "org.ohgiraffers.board.controller"
+                "org.ohgiraffers.mission01board.controller"
         };
         return GroupedOpenApi.builder()
                 .group("1.게시글 관리")
